@@ -11,7 +11,6 @@ body {
     color: #000000;
     background-color: #ffffff;
     font-size:large;
-
   padding-top: 70px; /* Adjust based on header height */
     font-family: 'Roboto', sans-serif;
 }
@@ -116,9 +115,6 @@ section {
     padding: 60px 0;
     text-align: center;
     transition: opacity 0.5s ease-in-out;    
-    section.visible {
-        opacity: 1;
-    }   
 }
 
 section h2 {
@@ -160,13 +156,7 @@ section h2 {
 .services .service-item i {
     font-size: 2em;
     color: #0078FF;
-    margin-bottom: 10px;
-    /* hr {
-        border: 0;
-        height: 2px;
-        background: linear-gradient(to right, #7B0606, #FFD700);
-      } */
-      
+    margin-bottom: 10px;      
 }
 hr {
     border: 0;
@@ -176,7 +166,6 @@ hr {
 
 /* Call to Action Section background:#FFFFF0; */
 .cta {
-
     color: #333;
     padding: 10px 0;
     align-items: center;
