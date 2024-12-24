@@ -85,7 +85,7 @@ header nav ul li a:hover {
 .hero h2 {
     font-size: 4.5em;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .hero h2 {
         font-size: 44px;
     }
@@ -231,7 +231,7 @@ footer {
 }
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width:100%;
