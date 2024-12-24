@@ -97,6 +97,12 @@ header nav ul li a:hover {
     header nav ul {
         float: none;
     }
+    header {
+        position: absolute;
+    }
+    .container {
+        padding: 10px;
+    }
 }
 
 
